@@ -16,7 +16,6 @@ opencv-python
 nltk
 wordcloud
 tensorflow
-open3d
 flask
 flask_wtf
 joblib
