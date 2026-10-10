@@ -33,13 +33,13 @@ Applied Research Methods/
 ├── .devcontainer/
 │   └── devcontainer.json
 |
-├── Week_01/
-├── Week_02/
-├── Week_03/
-├── Week_04/
-├── Week_05/
-├── Week_06/
-├── Week_07/
+├── Week_07/   # SW07 / KW44
+├── Week_08/   # SW08 / KW45
+├── Week_09/   # SW09 / KW46
+├── Week_10/   # SW10 / KW47
+├── Week_11/   # SW11 / KW48
+├── Week_12/   # SW12 / KW49
+├── Week_13/   # SW13 / KW50
 |
 ├── .gitignore
 ├── README.md

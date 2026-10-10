@@ -15,69 +15,69 @@
 
 # Ignore output-files of weekly exercises
 
-# Week_01
-Week_01/Data/supermarkets.json
-Week_01/Data/winterthur_sitemap.json
-Week_01/Data/zuerich_sitemap.json
-Week_01/Data/apartment_data_winterthur.csv
-
-# Week_02
-Week_02/apartments_data_preparation_zuerich.ipynb
-Week_02/apartments_data_preparation_zuerich.html
-Week_02/Data/apartments_data_prepared.csv
-Week_02/Data/supermarkets_data_prepared.csv
-Week_02/Data/apartments_database.db
-Week_02/supermarkets_database_Python.ipynb
-Week_02/supermarkets_database_Python.html
-
-# Week_03
-Week_03/Data/apartments_data_prepared.csv
-Week_03/Data/apartments_data_enriched.csv
-Week_03/apartments_data_preparation_zuerich.html
-Week_03/combining_and_organizing_data.html
-
-# Week_04
-Week_04/Data/python_code_outliers.txt
-Week_04/Data/myplot.png
-Week_04/rural_apartments.ipynb
-Week_04/rural_apartments.html
-Week_04/city_apartments.ipynb
-Week_04/city_apartments.html
-Week_04/differences_rural_cities.pdf
-Week_04/exploratory_data_analysis_supermarket_data.ipynb
-Week_04/exploratory_data_analysis_supermarket_data.html
-
-# Week_05
-Week_05/waedenswil_map.png
-Week_05/waedenswil_attribute_data.png
-Week_05/address_geocoded.png
-Week_05/nearest_neighbor_analysis_aldi_volg.png
-Week_05/isochrone_map_waedenswil_bicycle.png
-Week_05/residents_pp_waedenswil_bicycle.png
-Week_05/buildings_map_waedenswil.png
-Week_05/bldg_selection_zuerich.png
-Week_05/selected_raster_area.png
-Week_05/
-
-# Week_06
-Week_06/population_and_samples.html
-Week_06/unpaired_two_sample_t-test.html
-Week_06/analysis_of_variance_ANOVA.html
-Week_06/analysis_of_contingency_tables.html
-Week_06/correlation_analysis.html
-Week_06/Data/chi_squared_test_by_hand.txt
-
 # Week_07
-Week_07/linear_regression.html
-Week_07/regression_trees_random_forest.html
+Week_07/Data/supermarkets.json
+Week_07/Data/winterthur_sitemap.json
+Week_07/Data/zuerich_sitemap.json
+Week_07/Data/apartment_data_winterthur.csv
+
+# Week_08
+Week_08/apartments_data_preparation_zuerich.ipynb
+Week_08/apartments_data_preparation_zuerich.html
+Week_08/Data/apartments_data_prepared.csv
+Week_08/Data/supermarkets_data_prepared.csv
+Week_08/Data/apartments_database.db
+Week_08/supermarkets_database_Python.ipynb
+Week_08/supermarkets_database_Python.html
+
+# Week_09
+Week_09/Data/apartments_data_prepared.csv
+Week_09/Data/apartments_data_enriched.csv
+Week_09/apartments_data_preparation_zuerich.html
+Week_09/combining_and_organizing_data.html
+
+# Week_10
+Week_10/Data/python_code_outliers.txt
+Week_10/Data/myplot.png
+Week_10/rural_apartments.ipynb
+Week_10/rural_apartments.html
+Week_10/city_apartments.ipynb
+Week_10/city_apartments.html
+Week_10/differences_rural_cities.pdf
+Week_10/exploratory_data_analysis_supermarket_data.ipynb
+Week_10/exploratory_data_analysis_supermarket_data.html
+
+# Week_11
+Week_11/waedenswil_map.png
+Week_11/waedenswil_attribute_data.png
+Week_11/address_geocoded.png
+Week_11/nearest_neighbor_analysis_aldi_volg.png
+Week_11/isochrone_map_waedenswil_bicycle.png
+Week_11/residents_pp_waedenswil_bicycle.png
+Week_11/buildings_map_waedenswil.png
+Week_11/bldg_selection_zuerich.png
+Week_11/selected_raster_area.png
+Week_11/
+
+# Week_12
+Week_12/population_and_samples.html
+Week_12/unpaired_two_sample_t-test.html
+Week_12/analysis_of_variance_ANOVA.html
+Week_12/analysis_of_contingency_tables.html
+Week_12/correlation_analysis.html
+Week_12/Data/chi_squared_test_by_hand.txt
+
+# Week_13
+Week_13/linear_regression.html
+Week_13/regression_trees_random_forest.html
 
 
 # Ignore single folders
-# Week_01
-# Week_02
-# Week_03
-# Week_04
-# Week_05
-# Week_06
 # Week_07
+# Week_08
+# Week_09
+# Week_10
+# Week_11
+# Week_12
+# Week_13
 
