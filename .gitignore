@@ -16,10 +16,11 @@
 # Ignore output-files of weekly exercises
 
 # Week_07
-Week_07/Data/supermarkets.json
-Week_07/Data/winterthur_sitemap.json
-Week_07/Data/zuerich_sitemap.json
-Week_07/Data/apartments_data_winterthur.csv
+Week_07/supermarkets.json
+Week_07/flatfox_winterthur.csv
+Week_07/flatfox_zuerich.csv
+Week_07/Data/flatfox_winterthur.csv
+Week_07/Data/flatfox_zuerich.csv
 
 # Week_08
 Week_08/apartments_data_preparation_zuerich.ipynb
