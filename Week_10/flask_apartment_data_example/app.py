@@ -1,7 +1,14 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')  # Non-GUI backend (required when plotting inside a web server)
 import matplotlib.pyplot as plt
 import os
+
+# Paths relative to this file (app works independent of the working directory)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, '..', 'Data', 'apartments_data_enriched_cleaned.csv')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 # Set global Matplotlib style for dark background
 plt.style.use('dark_background')
@@ -13,7 +20,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Load the CSV file (update the path if needed)
-    df = pd.read_csv('../Data/apartments_data_enriched_cleaned.csv')
+    df = pd.read_csv(DATA_PATH)
 
     # Calculate KPIs and round them
     mean_price = round(df['price'].mean(), 2)
@@ -36,9 +43,11 @@ def index():
     plt.tick_params(colors='greenyellow')  # Change the tick color
 
     # Save histogram to the static folder
-    histogram_path = os.path.join('static', 'price_histogram.png')
-    plt.savefig(histogram_path, bbox_inches='tight', transparent=True)
+    os.makedirs(STATIC_DIR, exist_ok=True)
+    plt.savefig(os.path.join(STATIC_DIR, 'price_histogram.png'),
+                bbox_inches='tight', transparent=True)
     plt.close()
+    histogram_path = url_for('static', filename='price_histogram.png')
 
     # Convert dataframe to a list of dictionaries
     apartments = df.to_dict(orient='records')
@@ -50,9 +59,5 @@ def index():
                            histogram_path=histogram_path)
 
 if __name__ == '__main__':
-    # Ensure the 'static' directory exists for storing the histogram image
-    if not os.path.exists('static'):
-        os.makedirs('static')
-
     # Run the Flask app
     app.run(debug=True, host='0.0.0.0')
